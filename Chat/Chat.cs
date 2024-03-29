@@ -53,7 +53,7 @@ public static class Chat {
 
         Console.WriteLine();
 
-        /*
+        /*f
         var story = new Story(
             executor,
             "A discussion between <character_names> about the the Galaxy Class starship design mistakes and lessons learned for future designs.",
