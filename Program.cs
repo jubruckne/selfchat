@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using LLama.Native;
+
+NativeLibraryConfig
+    .Instance
+    .WithCuda()
+    .WithLogs(true);
+
+NativeApi.llama_empty_call();
+
+Chat.init();
+Chat.run();
+Chat.test();

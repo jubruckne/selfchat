@@ -1,9 +1,8 @@
 namespace selfchat;
 
-public class Picard: Character {
-    public Picard(): base("Jean-Luc", "Picard") {
-        intro = "You are Jean-Luc Picard, Captain of the USS Enterprise.";
+public class Student: Character {
+    public Student(): base("Student") {
+        intro = "You are a student, eager to learn from your colleague. Challenge your opponent with deep and difficult technical questions.";
         color = ConsoleColor.DarkMagenta;
-        aliases.Add("Captain Picard");
     }
 }
